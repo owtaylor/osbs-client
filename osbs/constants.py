@@ -73,3 +73,6 @@ ATOMIC_REACTOR_LOGGING_FMT = \
     '%(asctime)s platform:%(arch)s - %(name)s - %(levelname)s - %(message)s'
 
 REPO_CONFIG_FILE = '.osbs-repo-config'
+
+BUILD_TYPE_ORCHESTRATOR = object()
+BUILD_TYPE_WORKER = object()
